@@ -27,6 +27,7 @@ import SHIBARIUM from './shibarium.png'
 import GUAPX from './guapx.png'
 import SCROLL_ETH from './scroll.io.png'
 import Q from './q.png'
+import ZETA from './Zeta.png'
 
 
 export const CURRENCY = {
@@ -58,6 +59,7 @@ export const CURRENCY = {
   OP_BNB,
   Q,
   GUAPX,
+  ZETA,
 
   // ------------
 
@@ -125,4 +127,7 @@ export const CURRENCY = {
   // Q
   35441: Q, // Mainnet
   35443: Q, // Testnet
+
+    // ZETA
+  7001: ZETA, // Testnet
 }
