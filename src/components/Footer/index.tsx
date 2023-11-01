@@ -89,8 +89,8 @@ export default function Footer() {
   const SourceCopyright = (
     <>
       Powered by{' '}
-      <a href="https://onout.org/dex" target="_blank" rel="noopener noreferrer">
-        OnOut - no-code tool for creating DEX
+      <a href="https://safedefi.xyz" target="_blank" rel="noopener noreferrer">
+        Safe Defi
       </a>
     </>
   )
