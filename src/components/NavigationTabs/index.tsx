@@ -27,7 +27,7 @@ const StyledNavLink = styled(NavLink).attrs({
   align-items: center;
   justify-content: center;
   height: 3rem;
-  border-radius: 3rem;
+  border-radius: 0rem;
   outline: none;
   cursor: pointer;
   text-decoration: none;
@@ -35,7 +35,7 @@ const StyledNavLink = styled(NavLink).attrs({
   font-size: 20px;
 
   &.${activeClassName} {
-    border-radius: 12px;
+    border-radius: 0px;
     font-weight: 500;
     color: ${({ theme }) => theme.text1};
   }
