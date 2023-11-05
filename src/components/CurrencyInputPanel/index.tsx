@@ -75,13 +75,13 @@ const StyledDropDown = styled(DropDown)`
 const InputPanel = styled.div<{ hideInput?: boolean }>`
   ${({ theme }) => theme.flexColumnNoWrap}
   position: relative;
-  border-radius: ${({ hideInput }) => (hideInput ? '8px' : '20px')};
+  border-radius: ${({ hideInput }) => (hideInput ? '0px' : '0px')};
   background-color: ${({ theme }) => theme.bg1};
   z-index: 1;
 `
 
 const Container = styled.div<{ hideInput: boolean }>`
-  border-radius: ${({ hideInput }) => (hideInput ? '8px' : '20px')};
+  border-radius: ${({ hideInput }) => (hideInput ? '0px' : '0px')};
   border: 1px solid ${({ theme }) => theme.bg3};
   background-color: ${({ theme }) => theme.bg2};
 `
@@ -95,7 +95,7 @@ const StyledBalanceMax = styled.button`
   padding: 0.5rem;
   background-color: ${({ theme }) => theme.bg3};
   border: 1px solid ${({ theme }) => theme.bg3};
-  border-radius: 0.5rem;
+  border-radius: 0rem;
   font-size: 0.875rem;
   transition: 0.2s;
 
