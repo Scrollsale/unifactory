@@ -76,7 +76,7 @@ const NavlLinks = styled(Row)`
   padding: 0.3rem;
   flex-wrap: wrap;
   justify-content: center;
-  border-radius: 0.8rem;
+  border-radius: 0rem;
   box-shadow: rgba(0, 0, 0, 0.01) 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 4px 8px, rgba(0, 0, 0, 0.04) 0px 16px 24px,
     rgba(0, 0, 0, 0.01) 0px 24px 32px;
   background-color: ${({ theme }) => theme.bg1};
@@ -104,7 +104,7 @@ const AccountElement = styled.div<{ active: boolean }>`
   flex-direction: row;
   align-items: center;
   background-color: ${({ theme, active }) => (!active ? theme.bg1 : theme.bg2)};
-  border-radius: 0.7rem;
+  border-radius: 0rem;
   white-space: nowrap;
   width: 100%;
   cursor: pointer;
@@ -223,7 +223,7 @@ const StyledExternalLink = styled.a`
   justify-content: space-between;
   text-decoration: none;
   font-size: 0.9rem;
-  border-radius: 12px;
+  border-radius: 0px;
   width: fit-content;
   padding: 0.3rem 0.5rem;
   font-weight: 500;
