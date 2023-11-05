@@ -25,7 +25,7 @@ export const GreyCard = styled(Card)`
 const BlueCardStyled = styled(Card)`
   background-color: ${({ theme }) => theme.primary5};
   color: ${({ theme }) => theme.primary1};
-  border-radius: 12px;
+  border-radius: 0px;
   width: fit-content;
 `
 
