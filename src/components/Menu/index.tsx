@@ -31,7 +31,7 @@ export const StyledMenuButton = styled.button`
   background-color: ${({ theme }) => theme.bg1};
   transition: 0.2s;
   padding: 0.15rem 0.5rem;
-  border-radius: 0.5rem;
+  border-radius: 0rem;
   box-shadow: rgba(0, 0, 0, 0.01) 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 4px 8px, rgba(0, 0, 0, 0.04) 0px 16px 24px,
     rgba(0, 0, 0, 0.01) 0px 24px 32px;
 
@@ -55,7 +55,7 @@ const StyledMenu = styled.div`
   position: relative;
   border: none;
   text-align: left;
-  border-radius: 0.5rem;
+  border-radius: 0rem;
   background-color: ${({ theme }) => theme.bg1};
   transition: 0.2s;
 `
@@ -63,7 +63,7 @@ const StyledMenu = styled.div`
 const MenuFlyout = styled.span`
   min-width: 8.6rem;
   background-color: ${({ theme }) => theme.bg1};
-  border-radius: 0.5rem;
+  border-radius: 0rem;
   box-shadow: rgba(0, 0, 0, 0.01) 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 4px 8px, rgba(0, 0, 0, 0.04) 0px 16px 24px,
     rgba(0, 0, 0, 0.01) 0px 24px 32px;
   padding: 0.6rem 0.9rem;
