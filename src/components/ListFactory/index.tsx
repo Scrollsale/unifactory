@@ -34,7 +34,7 @@ const NewItemWrapper = styled(Box)`
 `
 
 const NewItemInput = styled(Input)<{ error: boolean }>`
-  border-radius: 0.5rem;
+  border-radius: 0rem;
   margin-right: 0.4rem !important;
   ${({ error, theme }) => (error ? `border: 2px solid ${theme.red2} !important;` : '')}
 `
