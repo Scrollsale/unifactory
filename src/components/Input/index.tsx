@@ -7,7 +7,7 @@ import QuestionHelper from 'components/QuestionHelper'
 const InputPanel = styled.div`
   ${({ theme }) => theme.flexColumnNoWrap}
   position: relative;
-  border-radius: 1.25rem;
+  border-radius: 0rem;
   z-index: 1;
   width: 100%;
 `
