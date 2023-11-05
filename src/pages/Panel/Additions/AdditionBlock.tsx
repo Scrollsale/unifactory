@@ -28,7 +28,7 @@ const commonPluginStyle = css`
 
 const StyledOption = styled.div<{ isPurchased?: boolean; isLocked?: boolean }>`
   padding: 8px;
-  border-radius: 1.25rem;
+  border-radius: 0rem;
   border: 1px solid
     ${({ theme, isPurchased, isLocked }) => {
       if (isLocked) return theme.primaryText1
@@ -64,7 +64,7 @@ const StyledText = styled.div`
 
 const StyledLabel = styled.span`
   padding: 10px 14px;
-  border-radius: 1rem;
+  border-radius: 0rem;
   border: 1px solid ${({ theme }) => theme.green1};
   background-color: ${({ theme }) => theme.green2};
 
@@ -87,7 +87,7 @@ const StyledActivation = styled.div`
 const ActivationInput = styled.input`
   margin: 12px 14px 0 0;
   padding: 8px 10px;
-  border-radius: 8px;
+  border-radius: 0px;
   border: 1px solid ${({ theme }) => theme.bg3};
   font-size: inherit;
 
