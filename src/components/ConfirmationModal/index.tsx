@@ -32,7 +32,7 @@ const ModalContentWrapper = styled.div`
   justify-content: center;
   padding: 2rem 0;
   background-color: ${({ theme }) => theme.bg2};
-  border-radius: 20px;
+  border-radius: 0px;
 `
 
 interface ComponentProps {
